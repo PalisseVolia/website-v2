@@ -1,0 +1,16 @@
+:root {
+    --text-color: #7d8494;
+    --bkg-color: #292d32;
+    --shadow1-color: #2a2d32;
+    --shadow2-color: #30343a;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bkg-color);
+}

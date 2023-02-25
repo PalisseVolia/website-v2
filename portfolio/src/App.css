@@ -1,0 +1,39 @@
+:root {
+    --text-color: #7d8494;
+    --bkg-color: #292d32;
+    --shadow1-color: #2a2d32;
+    --shadow2-color: #30343a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.NavBar {
+    height: 3.5em;
+    width: 100%;
+    background-color: var(--bkg-color);
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 0px 1px 20px 3px var(--shadow2-color);
+}
+
+#Header {
+    position: relative;
+    left: 20%;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.HeaderTitle {
+    margin: 0;
+    font-size: 6em;
+}
+
+.HeaderSubTitle {
+    margin-top: 0.5em;
+    font-size: 2.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+#temp {
+    background-color: #30527c;
+}
