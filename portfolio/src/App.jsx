@@ -22,7 +22,6 @@ function App() {
                             <h1 className="HeaderTitle">Volia</h1>
                             <div className="HeaderSubTitle">
                                 <p>Electrical engineering student  </p>
-                                <RotatingLine />
                             </div>
                         </div>
                     </ParallaxLayer>
