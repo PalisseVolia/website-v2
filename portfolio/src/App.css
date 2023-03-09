@@ -6,6 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ================================================================== */
+/* Nav */
+/* ================================================================== */
+
 .NavBar {
     height: 3.5em;
     width: 100%;
@@ -14,6 +18,10 @@
     flex-direction: row-reverse;
     box-shadow: 0px 1px 20px 3px var(--shadow2-color);
 }
+
+/* ================================================================== */
+/* Header */
+/* ================================================================== */
 
 #Header {
     position: relative;
@@ -34,6 +42,101 @@
     flex-direction: row;
 }
 
-#temp {
+/* ================================================================== */
+/* Education and Work */
+/* ================================================================== */
+
+#Education_Work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#education {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* TODO: TEMP BELOW : */
+    background-color: brown;
+    color: azure;
+}
+
+#work {
+    width: 50%;
+    height: 100%;
+    /* TODO: TEMP BELOW : */
+    background-color: cadetblue;
+}
+
+/* .EWelements {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+} */
+.EWelements {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.EWelements p {
+    padding: 0;
+    margin: 0;
+}
+.placeanddate {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .EWleft {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-width: 20%;
+}
+.EWleft p {
+    padding: 0;
+    margin: 0;
+}
+
+.EWmiddle {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.EWpoint {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    /* TODO: TEMP BELOW : */
+/* background-color: black;
+}
+
+.EWright {
+    display: flex;
+    flex-direction: column;
+}
+.EWright p {
+    padding: 0;
+    margin: 0;
+}*/
+
+.EWorga {
+    font-size: 2.5em;
+}
+.EWplace {
+    font-size: 1.5em;
+}
+
+/* ================================================================== */
+/* Temp backgrounds */
+/* ================================================================== */
+
+#tempP1 {
     background-color: #30527c;
+}
+
+#tempP2 {
+    background-color: #3d7c30;
 }

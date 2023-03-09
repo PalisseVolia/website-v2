@@ -16,12 +16,59 @@ function App() {
             </div>
             <div>
                 <Parallax pages={4}>
-                    <ParallaxLayer id="temp">
+                    <ParallaxLayer id="tempP1">
                         <div id="Header">
                             <h1 className="HeaderTitle">Palisse</h1>
                             <h1 className="HeaderTitle">Volia</h1>
                             <div className="HeaderSubTitle">
-                                <p>Electrical engineering student  </p>
+                                <p>Electrical engineering student</p>
+                            </div>
+                        </div>
+                    </ParallaxLayer>
+                    <ParallaxLayer id="tempP2"
+                        offset={1}>
+                        <div id="Education_Work">
+                            <div id="education">
+                                <div className="EWelements">
+                                    <p className="EWorga">INSA </p>
+                                    <div className="placeanddate">
+                                        <p className="EWplace">Strasbourg, </p>
+                                        <p className="EWdate">2020-Maintenant</p>
+                                    </div>
+                                </div>
+                                <p className="EWintitulé">License ingénieur en génie électrique</p>
+                                <p className="EWcontent">Capable de mener à bien des projets multidisciplinaires nécessitant des compétences en informatique, électronique et électrotechnique.</p>
+                                {/* <div className="EWelements">
+                                    <div className="EWleft">
+                                        <p className="EWorga">INSA</p>
+                                        <p className="EWplace">Strasbourg</p>
+                                        <p className="EWdate">2020-Maintenant</p>
+                                    </div>
+                                    <div className="EWmiddle">
+                                        <div className="EWpoint"></div>
+                                    </div>
+                                    <div className="EWright">
+                                        <p className="EWintitulé">License ingénieur en génie électrique</p>
+                                        <p className="EWcontent">Capable de mener à bien des projets multidisciplinaires nécessitant des compétences en informatique, électronique et électrotechnique.</p>
+                                    </div>
+                                </div>
+                                <div className="EWelements">
+                                    <div className="EWleft">
+                                        <p className="EWorga">Lycée la prat's</p>
+                                        <p className="EWplace">Strasbourg</p>
+                                        <p className="EWdate">2020-Maintenant</p>
+                                    </div>
+                                    <div className="EWmiddle">
+                                        <div className="EWpoint"></div>
+                                    </div>
+                                    <div className="EWright">
+                                        <p className="EWintitulé">License ingénieur en génie électrique</p>
+                                        <p className="EWcontent">Capable de mener à bien des projets multidisciplinaires nécessitant des compétences en informatique, électronique et électrotechnique.</p>
+                                    </div>
+                                </div> */}
+                            </div>
+                            <div id="work">
+
                             </div>
                         </div>
                     </ParallaxLayer>
