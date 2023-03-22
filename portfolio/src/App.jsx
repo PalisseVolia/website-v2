@@ -1,6 +1,6 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { useEffect, useRef } from 'react';
-import RotatingLine from "./components/RotatingLine";
+import SkillBox from "./components/SkillBox";
 import './App.css';
 
 import Nasa from "./img/nasa.jpg";
@@ -29,43 +29,7 @@ function App() {
                         offset={1}>
                         <div id="Education_Work">
                             <div id="education">
-                                <div className="EWelements">
-                                    <p className="EWorga">INSA </p>
-                                    <div className="placeanddate">
-                                        <p className="EWplace">Strasbourg, </p>
-                                        <p className="EWdate">2020-Maintenant</p>
-                                    </div>
-                                </div>
-                                <p className="EWintitulé">License ingénieur en génie électrique</p>
-                                <p className="EWcontent">Capable de mener à bien des projets multidisciplinaires nécessitant des compétences en informatique, électronique et électrotechnique.</p>
-                                {/* <div className="EWelements">
-                                    <div className="EWleft">
-                                        <p className="EWorga">INSA</p>
-                                        <p className="EWplace">Strasbourg</p>
-                                        <p className="EWdate">2020-Maintenant</p>
-                                    </div>
-                                    <div className="EWmiddle">
-                                        <div className="EWpoint"></div>
-                                    </div>
-                                    <div className="EWright">
-                                        <p className="EWintitulé">License ingénieur en génie électrique</p>
-                                        <p className="EWcontent">Capable de mener à bien des projets multidisciplinaires nécessitant des compétences en informatique, électronique et électrotechnique.</p>
-                                    </div>
-                                </div>
-                                <div className="EWelements">
-                                    <div className="EWleft">
-                                        <p className="EWorga">Lycée la prat's</p>
-                                        <p className="EWplace">Strasbourg</p>
-                                        <p className="EWdate">2020-Maintenant</p>
-                                    </div>
-                                    <div className="EWmiddle">
-                                        <div className="EWpoint"></div>
-                                    </div>
-                                    <div className="EWright">
-                                        <p className="EWintitulé">License ingénieur en génie électrique</p>
-                                        <p className="EWcontent">Capable de mener à bien des projets multidisciplinaires nécessitant des compétences en informatique, électronique et électrotechnique.</p>
-                                    </div>
-                                </div> */}
+                                <SkillBox></SkillBox>
                             </div>
                             <div id="work">
 

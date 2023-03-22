@@ -1,7 +1,7 @@
 :root {
     --text-color: #7d8494;
     --bkg-color: #292d32;
-    --shadow1-color: #2a2d32;
+    --shadow1-color: #30343a;
     --shadow2-color: #30343a;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -58,7 +58,7 @@
     display: flex;
     flex-direction: column;
     /* TODO: TEMP BELOW : */
-    background-color: brown;
+    background-color: var(--bkg-color);
     color: azure;
 }
 
@@ -69,64 +69,46 @@
     background-color: cadetblue;
 }
 
-/* .EWelements {
+.SkillBox {
+    width: 90%;
+    margin: 5%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: var(--text-color) 2px solid;
+    box-shadow: inset 0px 0px 20px 5px var(--shadow2-color);
+}
+
+.SBtop {
+    width: 98%;
+    padding-left: 2%;
+    border-bottom: var(--text-color) 2px solid;
+    text-transform: uppercase;
+}
+
+.SBmid {
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
     display: flex;
     flex-direction: row;
-    width: 100%;
-} */
-.EWelements {
-    display: inline-block;
-    width: 100%;
-    padding: 0;
+    justify-content: space-between;
+    border-bottom: var(--text-color) 2px solid;
+}
+.SBmid p {
     margin: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
-.EWelements p {
-    padding: 0;
-    margin: 0;
-}
-.placeanddate {
-    display: flex;
-    flex-direction: column;
+.Nom {
+    text-transform: uppercase;
 }
 
-/* .EWleft {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    min-width: 20%;
-}
-.EWleft p {
-    padding: 0;
-    margin: 0;
-}
-
-.EWmiddle {
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-}
-
-.EWpoint {
-    height: 2em;
-    width: 2em;
-    border-radius: 50%;
-    /* TODO: TEMP BELOW : */
-/* background-color: black;
-}
-
-.EWright {
-    display: flex;
-    flex-direction: column;
-}
-.EWright p {
-    padding: 0;
-    margin: 0;
-}*/
-
-.EWorga {
-    font-size: 2.5em;
-}
-.EWplace {
-    font-size: 1.5em;
+.SBbot {
+    width: 98%;
+    padding-left: 2%;
+    min-height: 150px;
 }
 
 /* ================================================================== */
