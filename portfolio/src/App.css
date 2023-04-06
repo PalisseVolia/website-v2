@@ -81,15 +81,29 @@
 }
 
 .SBtop {
-    width: 98%;
-    padding-left: 2%;
+    width: 97%;
+    padding-left: 3%;
     border-bottom: var(--text-color) 2px solid;
     text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+.SBtop img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.SBtop p {
+    margin: 0;
+    position: relative;
+    transform: translateY(+30%);
 }
 
 .SBmid {
-    width: 96%;
-    padding-left: 2%;
+    width: 95%;
+    padding-left: 3%;
     padding-right: 2%;
     display: flex;
     flex-direction: row;
@@ -106,8 +120,8 @@
 }
 
 .SBbot {
-    width: 98%;
-    padding-left: 2%;
+    width: 97%;
+    padding-left: 3%;
     min-height: 150px;
 }
 
