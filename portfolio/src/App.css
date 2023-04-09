@@ -46,14 +46,14 @@
 /* Education and Work */
 /* ================================================================== */
 
-#Education_Work {
+#Education {
     width: 100%;
     height: 100%;
     display: flex;
 }
 
-#education {
-    width: 50%;
+#EducationLeft {
+    width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -62,49 +62,48 @@
     color: azure;
 }
 
-#work {
-    width: 50%;
+#EducationRight {
+    width: 40%;
     height: 100%;
     /* TODO: TEMP BELOW : */
     background-color: cadetblue;
 }
 
 .SkillBox {
+    position: relative;
     width: 90%;
     margin: 5%;
     height: fit-content;
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 5px;
     border: var(--text-color) 2px solid;
     box-shadow: inset 0px 0px 20px 5px var(--shadow2-color);
 }
+.SkillBox p {
+    color: var(--text-color);
+}
 
 .SBtop {
-    width: 97%;
-    padding-left: 3%;
+    width: 99%;
+    padding-left: 1%;
     border-bottom: var(--text-color) 2px solid;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     font-size: 1.5em;
 }
-.SBtop img {
-    width: 50px;
-    height: 50px;
-    margin-top: 5px;
-    margin-right: 5px;
-}
 .SBtop p {
     margin: 0;
     position: relative;
-    transform: translateY(+30%);
+    padding-top: 0.3em;
+    padding-bottom: 0.2em;
 }
 
 .SBmid {
-    width: 95%;
-    padding-left: 3%;
-    padding-right: 2%;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -119,10 +118,39 @@
     text-transform: uppercase;
 }
 
-.SBbot {
-    width: 97%;
-    padding-left: 3%;
+.SBbotDesc {
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    height: 150px;
+}
+.SBbotDesc p {
+    margin: 0;
+    padding-top: 0.5em;
+    text-align: justify;
+}
+.SBbotFiles {
+    width: 99%;
+    padding-left: 1%;
     min-height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.SBbotFiles a {
+    padding: 0;
+    padding-top: 0.5em;
+    text-decoration: none;
+    color: aqua;
+}
+
+.SBbutton {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    color: var(--text-color);
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 /* ================================================================== */

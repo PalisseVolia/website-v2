@@ -1,8 +1,8 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, React } from 'react';
 import SkillBox from "./components/SkillBox";
+import FileLink from "./components/FileLink";
 import './App.css';
-
 import Nasa from "./img/nasa.jpg";
 
 function App() {
@@ -27,11 +27,24 @@ function App() {
                     </ParallaxLayer>
                     <ParallaxLayer id="tempP2"
                         offset={1}>
-                        <div id="Education_Work">
-                            <div id="education">
-                                <SkillBox></SkillBox>
+                        <div id="Education">
+                            <div id="EducationLeft">
+                                <SkillBox
+                                    Intitule="Lorem ipsum"
+                                    Nom="Lorem ipsum"
+                                    Lieu="Lorem ipsum"
+                                    Date="Lorem ipsum"
+                                    Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nisl ne Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nisl ne Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nisl ne Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nisl ne Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nisl ne"
+                                    docname1="Lorem ipsum"
+                                    docname2="Lorem ipsum"
+                                    docname3="Lorem ipsum"
+                                    docname4="Lorem ipsum"
+                                    doclink1="https://urlz.fr/lke2"
+                                    doclink2="https://urlz.fr/lke2"
+                                    doclink3="https://urlz.fr/lke2"
+                                    doclink4="https://urlz.fr/lke2"></SkillBox>
                             </div>
-                            <div id="work">
+                            <div id="EducationRight">
 
                             </div>
                         </div>
