@@ -1,5 +1,7 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { useEffect, useRef, React } from 'react';
+import EducationSB from "./components/EducationSB";
+import WorkSB from "./components/WorkSB";
 import SkillBox from "./components/SkillBox";
 import FileLink from "./components/FileLink";
 import './App.css';
@@ -29,27 +31,25 @@ function App() {
                         offset={1}>
                         <div id="Education">
                             <div id="EducationLeft">
-                                <SkillBox
-                                    Intitule="Lorem ipsum"
-                                    Nom="Lorem ipsum"
-                                    Lieu="Lorem ipsum"
-                                    Date="Lorem ipsum"
-                                    Description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nisl ne Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nisl ne Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nisl ne Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nisl ne Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nisl ne"
-                                    docname1="Lorem ipsum"
-                                    docname2="Lorem ipsum"
-                                    docname3="Lorem ipsum"
-                                    docname4="Lorem ipsum"
-                                    doclink1="https://urlz.fr/lke2"
-                                    doclink2="https://urlz.fr/lke2"
-                                    doclink3="https://urlz.fr/lke2"
-                                    doclink4="https://urlz.fr/lke2"></SkillBox>
+                                <EducationSB></EducationSB>
                             </div>
                             <div id="EducationRight">
 
                             </div>
                         </div>
                     </ParallaxLayer>
-                    <ParallaxLayer
+                    <ParallaxLayer id="tempP3"
+                        offset={2}>
+                        <div id="Work">
+                            <div id="WorkLeft">
+
+                            </div>
+                            <div id="WorkRight">
+                                <WorkSB></WorkSB>
+                            </div>
+                        </div>
+                    </ParallaxLayer>
+                    {/* <ParallaxLayer
                         offset={2}
                         speed={1}
                         factor={1}
@@ -57,7 +57,7 @@ function App() {
                             backgroundImage: `url(${Nasa})`,
                             backgroundSize: 'cover',
                         }}>
-                    </ParallaxLayer>
+                    </ParallaxLayer> */}
                 </Parallax>
             </div>
         </>

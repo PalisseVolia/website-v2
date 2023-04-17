@@ -51,7 +51,6 @@
     height: 100%;
     display: flex;
 }
-
 #EducationLeft {
     width: 60%;
     height: 100%;
@@ -61,7 +60,6 @@
     background-color: var(--bkg-color);
     color: azure;
 }
-
 #EducationRight {
     width: 40%;
     height: 100%;
@@ -69,10 +67,32 @@
     background-color: cadetblue;
 }
 
+#Work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#WorkLeft {
+    width: 40%;
+    height: 100%;
+    /* TODO: TEMP BELOW : */
+    background-color: palevioletred;
+}
+#WorkRight {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* TODO: TEMP BELOW : */
+    background-color: var(--bkg-color);
+    color: azure;
+}
+
 .SkillBox {
     position: relative;
     width: 90%;
     margin: 5%;
+    margin-bottom: 0;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -163,4 +183,8 @@
 
 #tempP2 {
     background-color: #3d7c30;
+}
+
+#tempP3 {
+    background-color: #7c3030;
 }
